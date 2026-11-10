@@ -23,7 +23,7 @@ jobs:
 
       - name: Extract source zip
         run: |
-          unzip -o PurpleClient-1_8_9-Final__1__1.zip -d .
+          unzip -o PurpleClient-1.8.9-Final (1).zip -d .
 
       - name: Grant execute permission to gradlew
         run: chmod +x gradlew
